@@ -5,7 +5,7 @@ function Resume() {
         <div className='resumePage'>
             <h2> Resume</h2>
 
-            <p>Download my <span><a href='https://drive.google.com/uc?export=download&id=1epjivlaQt9GkYNJjV92Bdam9MR6nTZjy' download={"Nnamdi's Resume"}>resume</a></span></p>
+            <p>Download my <span><a className='' href='https://drive.google.com/uc?export=download&id=1epjivlaQt9GkYNJjV92Bdam9MR6nTZjy' download={"Nnamdi's Resume"}>resume</a></span></p>
 
             <h3>Front-end Proficiencies</h3>
             <ul className='list-group'>
