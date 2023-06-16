@@ -18,9 +18,11 @@ This project is web development portfolio created using React.
 
 - [Questions](#questions)
 
+- [Website-Link](#website-link)
+
 ## Screenshots
 
-![A screenshot of the application being run in VS Code](./assets/images/application-screenshot.png)
+![A screenshot of the application being run](./main/assets/images/application-screenshot.png)
 
 ## Usage
 
@@ -35,6 +37,8 @@ The license being used for this application is the MIT license.
 N/A
 
 ## Website Link
+
+https://nnamdionyeije.github.io/React-Web-Development-Portfolio/
 
 ## Questions
 
