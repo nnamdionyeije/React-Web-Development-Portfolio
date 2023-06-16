@@ -13,8 +13,20 @@ const styles = {
 function Header({currentPage, handlePageChange}) {
   return (
     <header className="header">
-      <h1> Nnamdi Onyeije</h1>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+
+
+      <div className='main-header'>
+        <h1> Nnamdi Onyeije</h1>
+      </div>
+      
+      
+      <div className='justify-content-center '>
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
+      
+      
+
+      
 
     </header>
   );

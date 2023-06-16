@@ -55,38 +55,53 @@ function Contact() {
       };
 
     return (
-        <div>
-            <h3> Contact me</h3>
+        <div className='container'>
+            <h2> Contact Me</h2>
 
-            <form className='contact-form'>
-                <input
-                    value={userName}
-                    name="userName"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="name"
-                />
-                <input
-                    value={email}
-                    name="email"
-                    onChange={handleInputChange}
-                    type="email"
-                    placeholder="email"
-                />
-                <input
-                    value={message}
-                    name="message"
-                    onChange={handleInputChange}
-                    type="text"
-                    placeholder="message"
-                />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
-            </form>
-            {errorMessage && (
-                <div>
-                    <p className="error-text">{errorMessage}</p>
-                </div>
-            )}
+                <form className='contact-form'>
+                    <div className='form-group'>
+                        <input
+                            value={userName}
+                            name="userName"
+                            onChange={handleInputChange}
+                            className='form-control'
+                            type="text"
+                            placeholder="name"
+                        />
+                    </div>
+                    
+                    
+                    <div className='form-group'>
+                        <input
+                            value={email}
+                            name="email"
+                            onChange={handleInputChange}
+                            className='form-control'
+                            type="email"
+                            placeholder="email"
+                        />
+                    </div>
+
+                    <div className='form-group'>
+                        <textarea
+                            value={message}
+                            name="message"
+                            onChange={handleInputChange}
+                            className='form-control'
+                            rows="5"
+                            type="textarea"
+                            placeholder="message"
+                        />
+                    </div>
+                    
+                    <button type="submit" onClick={handleFormSubmit} className='btn btn-primary'>Submit</button>
+                </form>
+                {errorMessage && (
+                    <div>
+                        <p className="error-text">{errorMessage}</p>
+                    </div>
+                )}
+            
         </div>    
     );
 }

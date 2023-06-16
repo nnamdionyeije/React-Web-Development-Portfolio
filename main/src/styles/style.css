@@ -1,0 +1,140 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-size:large;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+body {
+    background-color: #686868ff;
+    color: #F9EAE1;
+}
+
+
+/* about */
+
+.aboutPage {
+    padding-left: 5%;
+}
+
+
+
+/* Portfolio */
+.githubLink {
+    float: right;
+    font-size: larger;
+}
+
+.projectLink {
+    font-size: larger;
+}
+
+.single-project {
+    margin: 10px;
+    padding: 10px;
+}
+
+.projectTitle {
+    margin-left: 5%;
+}
+
+.projectsPage {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Resume */
+.resumePage {
+    margin-left: 5%;
+    margin-right: 5%px;
+}
+
+/* header  */
+.header {
+    background: #2d5d7bff;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+
+
+}
+  
+.header h1 {
+margin: 0;
+padding-top: 75px;
+text-align: center;
+color: #F9EAE1;
+font-size: 3rem;
+}
+
+.header-bar {
+    width: 100%;
+}
+
+a {
+    color: #F9EAE1;
+
+}
+  
+/* .nav .nav-tabs {
+    display: inline-block;
+    float: right;
+} */
+
+/* Contact */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* navtabs */
+.navigationBar {
+    float: right;
+}
+
+.navigation {
+    width: 60%;
+
+    padding-top: 6%;
+    padding-left: 30%;
+
+}
+
+.nav-link {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-header {
+    padding-left: 5%;
+    margin-right: 40%;
+}
+
+.list-inline {
+    margin-top: 75px;
+}
+
+/* footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-height: 10%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.githubLogo {
+    margin-right: 2%;
+}
+
+.footLink {
+    max-height: 3%;
+    max-width: 3%;
+}
