@@ -22,7 +22,7 @@ This project is web development portfolio created using React.
 
 ## Screenshots
 
-![A screenshot of the application being run](./main/assets/images/application-screenshot.png)
+![A screenshot of the application being run](./src/assets/images/application-screenshot.png)
 
 ## Usage
 
