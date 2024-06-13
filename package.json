@@ -1,7 +1,7 @@
 {
-  "homepage": "https://nnamdionyeije.github.io/React-Web-Development-Portfolio/",
   "name": "main",
   "version": "0.1.0",
+  "homepage": "https://nnamdionyeije.github.io/React-Web-Development-Portfolio/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.5.1",
