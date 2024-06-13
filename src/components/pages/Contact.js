@@ -15,7 +15,9 @@ function ContactForm() {
 
   const [state, handleSubmit] = useForm("meqyykvz");
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return <div className='container'>
+      <p className='confirmationText'>Your message has been sent.</p>
+    </div>;
   }
 
   const handleInputChange = (e) => {

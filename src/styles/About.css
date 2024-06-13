@@ -13,10 +13,23 @@ flex-direction: row;
 }
 
 .right-column {
-    width: 60%;
-    padding-left: 5%;
+
+    width: 70%;
+    padding-left: 10%;
+    text-align: left;
 }
 
 .aboutText {
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.aboutPage {
+    margin-top: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.resumeText {
+    margin-top: 8%;
+    font-size: 30px;
 }

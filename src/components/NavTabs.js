@@ -12,19 +12,10 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About Me
         </a>
       </li>
-      <li className="list-inline-item">
-        <a
-          href="#contact"
-          onClick={() => handlePageChange('Contact')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
+      
       <li className="list-inline-item">
         <a
           href="#portfolio"
@@ -35,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="list-inline-item">
+      {/* <li className="list-inline-item">
         <a
           href="#Resume"
           onClick={() => handlePageChange('Resume')}
@@ -43,6 +34,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
           Resume
+        </a>
+        // currently commented out because it's function was redundant. I will instead link my resume in the "About" section.
+      </li> */}
+      <li className="list-inline-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
         </a>
       </li>
     </ul>

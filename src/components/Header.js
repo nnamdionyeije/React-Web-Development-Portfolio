@@ -20,7 +20,7 @@ function Header({currentPage, handlePageChange}) {
       </div>
       
       
-      <div className='justify-content-center '>
+      <div className='justify-content-center'>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </div>
       
