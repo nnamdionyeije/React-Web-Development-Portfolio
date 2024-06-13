@@ -38,25 +38,6 @@ function Portfolio() {
             <div className='main-holder'>
                 <div className='row justify-content-center'>
                     <Project 
-                        websiteLink="https://youtu.be/Kd30NvcakUw"
-                        projectName="NoSQL Social Network API"
-                        githubLink="https://github.com/nnamdionyeije/NoSQL-Social-Network-API"
-                        img="https://github.com/nnamdionyeije/MVC-Tech-Blog/raw/main/assets/images/homepage-screenshot.png"
-                        alt="An image of my NoSQL Social Network API front page"
-                    > 
-                    </Project>
-                    <Project 
-                        websiteLink="https://nnamdionyeije.github.io/Web-API-Coding-Quiz/"
-                        projectName="Web API Coding Quiz"
-                        githubLink="https://github.com/nnamdionyeije/Web-API-Coding-Quiz"
-                        img="https://github.com/nnamdionyeije/Web-API-Coding-Quiz/raw/main/assets/images/coding-quiz-screenshot.png"
-                        alt="An image of my coding quiz"
-                    >
-                    </Project>
-                </div>
-                
-                <div className='row justify-content-center'>
-                    <Project 
                         websiteLink="https://protected-mesa-32753.herokuapp.com/"
                         projectName="Feast Findr"
                         githubLink="https://github.com/jmfarthin/Feast-Findr"
@@ -64,6 +45,28 @@ function Portfolio() {
                         alt="An image of my Feast Findr project"
                     > 
                     </Project>
+
+                    <Project 
+                        websiteLink="https://www.youtube.com/watch?v=x6p0X_8aBPQ"
+                        projectName="InterviewBuddy"
+                        githubLink="https://github.com/jmfarthin/interview_buddy"
+                        img="https://github.com/jmfarthin/interview_buddy/raw/main/client/assets/images/interviewbuddy1.png"
+                        alt="An image of my AI coding interview website"
+                    >
+                    </Project>
+
+                </div>
+
+                <div className='row justify-content-center'>
+                    <Project 
+                        websiteLink="https://youtu.be/Kd30NvcakUw"
+                        projectName="NoSQL Social Network API"
+                        githubLink="https://github.com/nnamdionyeije/NoSQL-Social-Network-API"
+                        img="https://github.com/nnamdionyeije/NoSQL-Social-Network-API/raw/main/Main/assets/images/insomnia-screenshot.png"
+                        alt="An image of my NoSQL Social Network API running in Insomnia"
+                    > 
+                    </Project>
+                    
                     <Project 
                         websiteLink="https://nnamdionyeije.github.io/Weather-Dashboard/"
                         projectName="Weather Dashboard"
@@ -72,8 +75,9 @@ function Portfolio() {
                         alt="An image of my API driven weather dashboard"
                     >
                     </Project>
-
                 </div>
+                
+                
             </div>
 
         </div> 

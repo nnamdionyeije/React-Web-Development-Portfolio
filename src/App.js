@@ -6,6 +6,8 @@ import './styles/style.css';
 import './styles/Header.css';
 import './styles/Contact.css';
 import './styles/Portfolio.css';
+import './styles/About.css';
+
 
 
 

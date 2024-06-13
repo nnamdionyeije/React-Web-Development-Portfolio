@@ -1,0 +1,22 @@
+.row {
+    display: flex;
+    width: 100%;
+}
+  
+.left-column, .right-column {
+display: flex;
+flex-direction: row;
+}
+
+.left-column {
+    width: 20%;
+}
+
+.right-column {
+    width: 60%;
+    padding-left: 5%;
+}
+
+.aboutText {
+    font-size: 25px;
+}
