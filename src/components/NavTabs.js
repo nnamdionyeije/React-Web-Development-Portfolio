@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About Me
+          Nnamdi Onyeije
         </a>
       </li>
       

@@ -1,9 +1,11 @@
 .row {
     display: flex;
-    width: 100%;
+    width: 75%;
+    margin-right: -15px;
+    margin-left: -15px;
 }
   
-.left-column, .right-column {
+/* .left-column, .right-column {
 display: flex;
 flex-direction: row;
 }
@@ -17,19 +19,50 @@ flex-direction: row;
     width: 70%;
     padding-left: 10%;
     text-align: left;
-}
+} */
 
 .aboutText {
-    font-size: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+
 }
 
 .aboutPage {
-    margin-top: 1%;
+    /* margin-top: 1%;
     margin-left: 7%;
-    margin-right: 7%;
+    margin-right: 7%; */
+    justify-content: center;
+    display: flex;
 }
 
 .resumeText {
     margin-top: 8%;
     font-size: 30px;
 }
+
+.title {
+    text-align: center;
+    font-size: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
+    align-self: auto;
+}
+
+.pfp {
+    width: 270px;
+    height: 270px;
+    margin: 2px;
+    border: solid white 3px;
+    border-radius: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    
+  }

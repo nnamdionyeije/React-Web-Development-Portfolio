@@ -1,27 +1,38 @@
 * {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif, 'Josefin Sans';
 }
 
 p {
     font-size:large;
+    font-family: 'Josefin Sans', sans-serif;;
 }
 
+
+.container h2 {
+    text-align: center;
+}
+
+
 h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 body {
-    background-color: #686868ff;
+    background-color: rgba(34,38,41,255);
     color: #F9EAE1;
 }
 
 
 /* about */
 
-.aboutPage {
-    padding-left: 5%;
+.headerName {
+
 }
 
+.projectTitle h2 {
+    font-size: 330px;
+
+}
 
 
 /* Portfolio */
@@ -47,6 +58,9 @@ body {
     margin-top: 1%;
     margin-left: 15px;
     margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Resume */
@@ -57,20 +71,21 @@ body {
 
 /* header  */
 .header {
-    background: #2d5d7bff;
-    height: 200px;
+    background: rgba(34,38,41,255);
+    height: 50px;
     display: flex;
     flex-direction: row;
+    font-family: 'Josefin Sans', sans-serif;
 
 
 }
   
 .header h1 {
 margin: 0;
-padding-top: 75px;
+padding-top: 10px;
 text-align: center;
 color: #F9EAE1;
-font-size: 3rem;
+font-size: 25px;
 }
 
 .header-bar {
@@ -106,9 +121,20 @@ a {
 
 }
 
+.projectTitle {
+    align-self: center;
+}
+
 .nav-link {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
+    /* font-weight: bold; */
+}
+
+.main-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 .main-header {
@@ -116,8 +142,16 @@ a {
     margin-right: 50%;
 }
 
+.linked-sites {
+    /* display: flex;
+    justify-content: flex-end; */
+    position:absolute; 
+    right:2%;
+    display: block;
+    padding: .5rem 1rem;
+}
 .list-inline {
-    margin-top: 75px;
+    margin-top: 10px;
 }
 
 /* footer */

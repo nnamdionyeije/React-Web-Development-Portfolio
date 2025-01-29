@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer className='footer'>
             
-            <a href='https://github.com/nnamdionyeije' className='footLink'>
+            {/* <a href='https://github.com/nnamdionyeije' className='footLink'>
                 <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png'
                     alt='The github logo'
                     width="100%">
@@ -16,7 +16,7 @@ function Footer() {
                 alt='The LinkedIn logo'
                 width="100%">
                 </img>
-            </a>
+            </a> */}
 
             
         </footer>
